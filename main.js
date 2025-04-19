@@ -104,7 +104,7 @@
     
     // Help text
     var helpText = "Available commands:\nls - Lists files\ncls - Clears display\nhelp - Lists commands\ncat <file> - Displays file\ncd <dir> - Enters directory";
-    var helloText = "Available commands:\nls - Lists files\ncls - Clears display\nhelp - Lists commands\ncat <file> - Displays file\ncd <dir> - Enters directory";
+    var helloText = "Hello visitor, we are Los Caballeros de Calcutta. See more in ABOUT.";
 
     // Contact texts
     /*var contactInfo = {
