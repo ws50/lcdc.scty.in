@@ -104,7 +104,8 @@
     
     // Help text
     var helpText = "Available commands:\nls - Lists files\ncls - Clears display\nhelp - Lists commands\ncat <file> - Displays file\ncd <dir> - Enters directory";
-    
+    var helloText = "Available commands:\nls - Lists files\ncls - Clears display\nhelp - Lists commands\ncat <file> - Displays file\ncd <dir> - Enters directory";
+
     // Contact texts
     /*var contactInfo = {
       email: '@gmail.com',
@@ -170,10 +171,10 @@
             content:
              'Name            : Vinayak Jaiswal\
             \nMember          : Since 2016\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : Marketing, Business Analytics\
+            \nEducation       : SXC Kolkata\
+            \nDistinctions    : Ankur Puraskar for Excellence in Hindi\
+            \nOrganizations   : I**, M**, P**\
             \nReference       : IN-900-003'
         },
         {
@@ -184,7 +185,7 @@
              'Name            : Bodhisatwa Bhattacharya\
             \nMember          : Since 2016\
             \nInterest        : Institutional Trader\
-            \nEducation       : IIT Madras\
+            \nEducation       : BIT Mesra, IIT Madras\
             \nDistinctions    : SAT India Top Performer Award\
             \nOrganizations   : SINP, S**, IASc, S**, P**, F**\
             \nReference       : IN-900-004'
@@ -196,10 +197,10 @@
             content:
              'Name            : Arya Chakravarty\
             \nMember          : Since 2016\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : Auditing, Mergers & Acquisitions\
+            \nEducation       : SXC Kolkata, ICAI\
+            \nDistinctions    : Chartered Accountant\
+            \nOrganizations   : D**\
             \nReference       : IN-900-005'
         },
         {
@@ -209,8 +210,8 @@
             content:
              'Name            : Supratim Mukherjee\
             \nMember          : Since 2017\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : IT Engineer\
+            \nEducation       : Jadavpur University\
             \nDistinctions    : ***\
             \nOrganizations   : ***\
             \nReference       : IN-900-006'
@@ -222,8 +223,8 @@
             content:
              'Name            : Rishav Dutta\
             \nMember          : Since 2017\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Electronics Engineer\
+            \nEducation       : IEM Kolkata\
             \nDistinctions    : ***\
             \nOrganizations   : ***\
             \nReference       : IN-900-007'
@@ -235,8 +236,8 @@
             content:
              'Name            : Zubin Pandit\
             \nMember          : Since 2018\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : CS Engineer\
+            \nEducation       : VIT Bhopal\
             \nDistinctions    : ***\
             \nOrganizations   : ***\
             \nReference       : IN-900-008'
@@ -248,8 +249,8 @@
             content:
              'Name            : Biswarup Roy\
             \nMember          : Since 2018\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : CS Engineer\
+            \nEducation       : SNU Kolkata\
             \nDistinctions    : ***\
             \nOrganizations   : ***\
             \nReference       : IN-900-009'
@@ -262,7 +263,7 @@
              'Name            : Aditya Mitra\
             \nMember          : Since 2018\
             \nInterest        : CS Engineer, Cybersecurity Specialist\
-            \nEducation       : VIT University\
+            \nEducation       : VIT-AP University\
             \nDistinctions    : SIH National Winner\
             \nOrganizations   : F**, I**, D**, D**\
             \nReference       : IN-900-010'
@@ -274,10 +275,10 @@
             content:
              'Name            : Sthitadhi Maitra\
             \nMember          : Since 2019\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Petroleum Engineer, ML Specialist\
+            \nEducation       : IIPE Visakhapatnam\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : L**, ONGC, Q**\
             \nReference       : IN-900-011'
         },
         {
@@ -287,10 +288,10 @@
             content:
              'Name            : Deepro Nath\
             \nMember          : Since 2020\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : Software Engineer\
+            \nEducation       : IIT BHU\
+            \nDistinctions    : NTSE, KVPY, INSPIRE\
+            \nOrganizations   : C**\
             \nReference       : IN-900-012'
         },
         {
@@ -300,8 +301,8 @@
             content:
              'Name            : Sankalp Mishra\
             \nMember          : Since 2020\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Biotech Engineer\
+            \nEducation       : NIT Durgapur\
             \nDistinctions    : ***\
             \nOrganizations   : ***\
             \nReference       : IN-900-013'
@@ -313,8 +314,8 @@
             content:
              'Name            : Arghya Bhattacharya\
             \nMember          : Since 2021\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : CS Engineer\
+            \nEducation       : UEM Kolkata\
             \nDistinctions    : ***\
             \nOrganizations   : ***\
             \nReference       : IN-900-014'
@@ -326,10 +327,10 @@
             content:
              'Name            : Kunal Pramanick\
             \nMember          : Since 2022\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : IT Engineer\
+            \nEducation       : Jadavpur University\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : T**\
             \nReference       : IN-900-015'
         },
         {
@@ -352,10 +353,10 @@
             content:
              'Name            : Anumoy Nandy\
             \nMember          : Since 2022\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : IT Engineer\
+            \nEducation       : Jadavpur University\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : R**, C**, O**\
             \nReference       : IN-900-017'
         },
         {
@@ -365,10 +366,10 @@
             content:
              'Name            : Sayan Maji\
             \nMember          : Since 2022\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : IT Engineer, Business Analytics\
+            \nEducation       : Jadavpur University\
+            \nDistinctions    : NTSE, JBNSTS\
+            \nOrganizations   : P**, Z**\
             \nReference       : IN-900-018'
         },
         {
@@ -378,10 +379,10 @@
             content:
              'Name            : Arijit Das\
             \nMember          : Since 2023\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Chemical Engineer\
+            \nEducation       : IIT Patna\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : NSS, A**, ONGC, IITR\
             \nReference       : IN-900-019'
         },
         {
@@ -391,10 +392,10 @@
             content:
              'Name            : Shagnik Das\
             \nMember          : Since 2023\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Mechanical Engineer\
+            \nEducation       : BIT Mesra\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : NSS, SAIL, K***\
             \nReference       : IN-900-020'
         },
         {
@@ -404,10 +405,10 @@
             content:
              'Name            : Soumya Roychowdhury\
             \nMember          : Since 2024\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : Production Engineer, Business Analytics\
+            \nEducation       : Jadavpur University\
+            \nDistinctions    : University Gold Medal, MITACS\
+            \nOrganizations   : T**, IITKGP, Athabasca, Z**\
             \nReference       : IN-900-021'
         },
         {
@@ -417,10 +418,10 @@
             content:
              'Name            : Abhrojyoti Sen\
             \nMember          : Since 2024\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Electronics Engineer, Management Consultant\
+            \nEducation       : Jadavpur University, IIM Ahmedabad\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : T**, E**\
             \nReference       : IN-900-022'
         },
         {
@@ -430,10 +431,10 @@
             content:
              'Name            : Mridul Agarwal\
             \nMember          : Since 2024\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : IT Engineer, Consultant\
+            \nEducation       : Jadavpur University, IIM Calcutta\
+            \nDistinctions    : IIMC Placement Representative\
+            \nOrganizations   : E**, A**\
             \nReference       : IN-900-023'
         },
         {
@@ -443,10 +444,10 @@
             content:
              'Name            : Abhishek Pathak\
             \nMember          : Since 2024\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : Production Engineer\
+            \nEducation       : Jadavpur University\
+            \nDistinctions    : Siemens Scholar, HULT Prize Winner\
+            \nOrganizations   : IIITDMJ, IITBHU, S**, B**, A**, S**, B**\
             \nReference       : IN-900-024'
         },
         {
@@ -456,10 +457,10 @@
             content:
              'Name            : Shayambhu Chaudhuri\
             \nMember          : Since 2024\
-            \nInterest        : ***\
-            \nEducation       : ***\
-            \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nInterest        : IT Engineer\
+            \nEducation       : Jadavpur University\
+            \nDistinctions    : ICPC International Ranker\
+            \nOrganizations   : A**, S**\
             \nReference       : IN-900-025'
         },
         {
@@ -469,10 +470,10 @@
             content:
              'Name            : Neelak Dasgupta\
             \nMember          : Since 2025\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Marketing\
+            \nEducation       : SRMIST Chennai\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : D**\
             \nReference       : IN-900-026'
         },
         {
@@ -482,10 +483,10 @@
             content:
              'Name            : Anuraj Chatterjee\
             \nMember          : Since 2025\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Mathematician\
+            \nEducation       : IACS, IIT Madras\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : IMSC, T**\
             \nReference       : IN-900-027'
         },
         {
@@ -495,10 +496,10 @@
             content:
              'Name            : Krish Kushwaha\
             \nMember          : Since 2025\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Auditing\
+            \nEducation       : SCMS Pune, IIM Calcutta\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : H**, C**\
             \nReference       : IN-900-028'
         },
         {
@@ -534,10 +535,10 @@
             content:
              'Name            : Sourya Basu\
             \nMember          : Since 2025\
-            \nInterest        : ***\
-            \nEducation       : ***\
+            \nInterest        : Automotive Journalist\
+            \nEducation       : GSV Vadodara, Coventry University\
             \nDistinctions    : ***\
-            \nOrganizations   : ***\
+            \nOrganizations   : Indian Railways, RDSO\
             \nReference       : IN-900-031'
         }
     ];
@@ -625,6 +626,9 @@
         commands: {
           help: function help() {
             return helpText;
+          },
+          hello: function hello() {
+            return helloText;
           },
           cwd: function cwd() {
             return browser.cwd();
